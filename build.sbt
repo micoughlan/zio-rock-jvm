@@ -6,3 +6,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "zio-rockthejvm"
   )
+
+libraryDependencies += "dev.zio" %% "zio" % "2.1.4"
